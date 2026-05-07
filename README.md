@@ -1,4 +1,7 @@
-## Yuki · Frontend Engineer × AI Product
+## Yuki · Design Engineer × AI Product
+
+Trained in architecture — where design means understanding how people move through space.
+Now I apply that to how users move through products.
 
 3.5 years building e-commerce SaaS at ThoughtWorks.  
 Architecture background → design judgment. UX training → product thinking.
