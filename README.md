@@ -1,10 +1,12 @@
 ## Yuki · Design Engineer × AI Product
 
-Trained in architecture — where design means understanding how people move through space.
-Now I apply that to how users move through products.
+I studied architecture before I wrote code. That training gave me one thing
+most engineers don't have: a framework for understanding how people navigate
+systems — not just how they click, but why they stop, turn back, or give up.
 
-3.5 years building e-commerce SaaS at ThoughtWorks.  
-Architecture background → design judgment. UX training → product thinking.
+I apply that to e-commerce SaaS as a frontend engineer, and use AI to push
+that further — designing agents that intervene where filters fail, and systems
+that guide rather than overwhelm.
 
 **Currently focused on:**
 - **Yukiss** — an AI-powered stationery D2C store (Next.js + Medusa + Stripe + Claude API),
@@ -18,11 +20,12 @@ Architecture background → design judgment. UX training → product thinking.
 - i18n automation via Figma API, adopted cross-team
 - Production support sub-agent: parallel Azure App Insight queries replacing manual triage
 
-**Stack**  
+**Stack**
 React · TypeScript · Next.js · GraphQL · Node.js · Vertex AI · Claude API · Mixpanel
 
-**Writing & contact**  
+**Writing & contact**
 [掘金 (Juejin)](https://juejin.cn/user/3582625834347100) · [LinkedIn](https://www.linkedin.com/in/kunyu-xu/) · yuki.uix@gmail.com
+
 <!--
 **yuki-uix/yuki-uix** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
