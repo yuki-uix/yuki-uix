@@ -24,7 +24,7 @@ that guide rather than overwhelm.
 React · TypeScript · Next.js · GraphQL · Node.js · Vertex AI · Claude API · Mixpanel
 
 **Writing & contact**
-[掘金 (Juejin)](https://juejin.cn/user/3582625834347100) · [LinkedIn](https://www.linkedin.com/in/kunyu-xu/) · yuki.uix@gmail.com
+[个人网站](https://yukiuix-dev.vercel.app) · [掘金 (Juejin)](https://juejin.cn/user/3582625834347100) · [LinkedIn](https://www.linkedin.com/in/kunyu-xu/) · yuki.uix@gmail.com
 
 <!--
 **yuki-uix/yuki-uix** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
