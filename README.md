@@ -8,23 +8,31 @@ I apply that to e-commerce SaaS as a frontend engineer, and use AI to push
 that further — designing agents that intervene where filters fail, and systems
 that guide rather than overwhelm.
 
-**Currently focused on:**
-- **Yukiss** — an AI-powered stationery D2C store (Next.js + Medusa + Stripe + Claude API),
-  exploring how AI reshapes the full e-commerce stack
+## Currently focused on
 - **Content distribution series** — frontend lens on SEO/GEO → IA → analytics → recommendations
 - **AI engineering** — Figma MCP, Spec-Driven development, production sub-agent workflows
 
-**Work highlights:**
+## What I'm building
+
+| Project | What it is | Stack |
+|---------|-----------|-------|
+| [yukiuix.com](https://yukiuix.com) | Design engineer portfolio | Next.js, TypeScript, Tailwind |
+| [brooch-shop](brooch-shop.vercel.app) | AI shopping agent with tool calling | Claude API, TypeScript |
+| [post-agent-game](post-agent-game.vercel.app) | Human vs AI judgment comparison | React, Claude API |
+| Yukiss *(in progress)* | AI-native stationery D2C | Next.js, Stripe, Vertex AI |
+
+
+## Work highlights
 - Module Federation checkout rebuild → 30% of total orders via new flow
 - Filter performance: CPU ~16s → ~8s via computation cache + render optimization
 - i18n automation via Figma API, adopted cross-team
 - Production support sub-agent: parallel Azure App Insight queries replacing manual triage
 
-**Stack**
+## Stack
 React · TypeScript · Next.js · GraphQL · Node.js · Vertex AI · Claude API · Mixpanel
 
-**Writing & contact**
-[个人网站](https://yukiuix.com) · [掘金 (Juejin)](https://juejin.cn/user/3582625834347100) · [LinkedIn](https://www.linkedin.com/in/kunyu-xu/) · yuki.uix@gmail.com
+## Writing & contact
+[yukiuix.com](https://yukiuix.com) · [掘金 (Juejin)](https://juejin.cn/user/3582625834347100) · [LinkedIn](https://www.linkedin.com/in/kunyu-xu/) · yuki.uix@gmail.com
 
 <!--
 **yuki-uix/yuki-uix** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
