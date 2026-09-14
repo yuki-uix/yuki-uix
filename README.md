@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/ai-engineering-hero.png" alt="Architecture transforming into an AI agent and evaluation system" width="100%" />
-</p>
-
 <h1 align="center">Yuki Xu</h1>
 
 <p align="center">
@@ -31,15 +27,7 @@ to support a real **ship / no-ship decision**. At Thoughtworks, I work across
 TypeScript, React, Node.js, Python, and Java/Spring Boot to turn LLM workflows
 into systems teams can review, measure, and deliver.
 
-## `01 / live signal`
-
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yuki-uix&theme=tokyonight&animation=load&duration=3"
-    alt="Yuki's live GitHub contribution summary"
-    width="100%"
-  />
-</p>
+## `01 / live metrics`
 
 <p align="center">
   <img
@@ -48,8 +36,8 @@ into systems teams can review, measure, and deliver.
     height="180"
   />
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yuki-uix&theme=tokyonight&animation=load"
-    alt="Yuki's top languages by commit"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yuki-uix&theme=tokyonight&utcOffset=8&animation=load"
+    alt="Yuki's commit activity by hour in UTC plus 8"
     height="180"
   />
 </p>
