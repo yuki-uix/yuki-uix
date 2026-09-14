@@ -1,0 +1,40 @@
+name: Update latest writing
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/latest-writing.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: latest-writing
+  cancel-in-progress: true
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Pull in the latest writing
+        uses: gautamkrishnar/blog-post-workflow@8fe00f11b147770bd95a8e1c41f4d033c3929b5f # v1
+        with:
+          feed_list: "https://www.yukiuix.com/en/feed.xml"
+          max_post_count: 3
+          date_format: "UTC:yyyy-mm-dd"
+          template: '- `$date` — [$title]($url)$newline'
+          remove_duplicates: true
+          enable_keepalive: false
+          commit_message: "chore: refresh latest writing"
+          committer_username: "github-actions[bot]"
+          committer_email: "41898282+github-actions[bot]@users.noreply.github.com"

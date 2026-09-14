@@ -106,7 +106,22 @@ into systems teams can review, measure, and deliver.
 - Turned multi-market rollout knowledge into a reusable coding-agent workflow,
   cutting implementation from roughly one week to half a day.
 
-## `04 / contribution city`
+## `04 / latest writing`
+
+Fresh notes on AI delivery, design engineering, and the parts of software that
+only become visible after the demo works.
+
+<!-- BLOG-POST-LIST:START -->
+- `2026-08-27` — [We Can Build an Agent in Ten Minutes — Why Does Shipping It Still Take Weeks?](https://www.yukiuix.com/en/writing/agent-demo-to-delivery)
+- `2026-05-31` — [Reading baoyu-skills Source Code Through a Design Systems Lens — Three Familiar Patterns](https://mp.weixin.qq.com/s/YSckbphLlJbh6DMwzplLXg)
+- `2026-05-28` — [I Thought All 9 Token Styles Were Valid — Until I Changed the IA](https://dev.to/yuki-uix/built-a-token-switcher-with-9-profiles-they-all-worked-that-made-me-ask-questions-2f6a)
+<!-- BLOG-POST-LIST:END -->
+
+<p align="right">
+  <a href="https://www.yukiuix.com/en/writing">Read the full archive →</a>
+</p>
+
+## `05 / contribution city`
 
 <p align="center">
   <a href="https://github.com/yoshi389111/github-profile-3d-contrib">
@@ -134,7 +149,7 @@ into systems teams can review, measure, and deliver.
   />
 </picture>
 
-## `05 / toolbox`
+## `06 / toolbox`
 
 <p align="center">
   <img
