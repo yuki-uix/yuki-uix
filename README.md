@@ -106,13 +106,13 @@ into systems teams can review, measure, and deliver.
 - Turned multi-market rollout knowledge into a reusable coding-agent workflow,
   cutting implementation from roughly one week to half a day.
 
-## `04 / current activity`
+## `04 / contribution city`
 
 <p align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+  <a href="https://github.com/yoshi389111/github-profile-3d-contrib">
     <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=yuki-uix&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Flow"
-      alt="Yuki's GitHub contribution activity graph"
+      src="https://raw.githubusercontent.com/yuki-uix/yuki-uix/profile-3d/profile-night-rainbow.svg"
+      alt="Yuki's 3D GitHub contribution calendar"
       width="100%"
     />
   </a>
