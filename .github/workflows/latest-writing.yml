@@ -33,6 +33,7 @@ jobs:
           max_post_count: 3
           date_format: "UTC:yyyy-mm-dd"
           template: '- `$date` — [$title]($url)$newline'
+          tag_post_pre_newline: true
           remove_duplicates: true
           enable_keepalive: false
           commit_message: "chore: refresh latest writing"
