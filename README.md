@@ -1,74 +1,183 @@
-# Yuki Xu · AI Engineer
+<p align="center">
+  <img src="./assets/ai-engineering-hero.png" alt="Architecture transforming into an AI agent and evaluation system" width="100%" />
+</p>
+
+<h1 align="center">Yuki Xu</h1>
+
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&repeat=true&width=900&height=45&lines=AI+Engineer+%C3%97+Product-minded+Builder;Agents+%E2%80%A2+Evals+%E2%80%A2+Grounded+Generation+%E2%80%A2+Developer+Tools;I+build+systems+that+know+when+not+to+ship."
+      alt="Typing animation: AI Engineer, agents, evaluations, grounded generation, and developer tools"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.yukiuix.com/"><img src="https://img.shields.io/badge/Portfolio-7AA2F7?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/kunyu-xu/"><img src="https://img.shields.io/badge/LinkedIn-BB9AF7?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:yuki.uix@gmail.com"><img src="https://img.shields.io/badge/Email-2AC3DE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+<p align="center">
+  <code>agent evaluation</code> ·
+  <code>grounded generation</code> ·
+  <code>local-first safety</code> ·
+  <code>developer experience</code>
+</p>
 
 I build AI agents, evaluation systems, and developer tools with enough evidence
-to support a real **ship / no-ship decision**.
+to support a real **ship / no-ship decision**. At Thoughtworks, I work across
+TypeScript, React, Node.js, Python, and Java/Spring Boot to turn LLM workflows
+into systems teams can review, measure, and deliver.
 
-At Thoughtworks, I work across TypeScript, React, Node.js, and Java/Spring Boot,
-turning LLM workflows into tools that teams can review, measure, and deliver. My
-current focus is agent evaluation, grounded generation, local-first safety, and
-the engineering boundaries that make AI systems trustworthy.
+## `01 / live signal`
 
-## Selected work
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yuki-uix&theme=tokyonight&animation=load&duration=3"
+    alt="Yuki's live GitHub contribution summary"
+    width="100%"
+  />
+</p>
 
-| Project | Status | What it proves |
-|---|---|---|
-| [pace-triage-agent](https://github.com/yuki-uix/pace-triage-agent) | Working prototype | A two-stage insurance enquiry agent with Pydantic contracts, human review, a frozen golden set, and a 2×2 evaluation matrix. All tested configurations miss the safety bars, so the project recommends **against** production release. |
-| [RepoCoach](https://github.com/yuki-uix/RepoCoach) | Completed experiment | A source-learning agent with constructive grounding and safety gates. Across 638 tests and 22 merged PRs, the project measured where agent cost actually comes from and documented why development stopped. |
-| [rag-generative-ui-explorer](https://github.com/yuki-uix/rag-generative-ui-explorer) | In progress | A schema-constrained generative UI over grounded RAG evidence. On its 60-question set, dense retrieval reached 63.7% Recall@10 versus 47.6% for BM25; fusion did not beat the best single retriever. |
-| [agent-cost-lab](https://github.com/yuki-uix/agent-cost-lab) | Measurement lab | Tests the difference between saving tokens and saving money. Its first offline result found a compaction payback of 18–19 turns—far beyond the locked 2–4 turn prediction. |
-| [agent-eval-harness](https://github.com/yuki-uix/agent-eval-harness) | Small open-source tool | A zero-dependency, single-file regression harness that preserves paired case outcomes and uses McNemar's exact test instead of comparing two aggregate pass rates. |
-| [beforeshare](https://github.com/yuki-uix/beforeshare) | Product specification | A local-first file preflight concept for people and agents, with immutable originals, review-before-mutation, independent verification, safety gates, and a pilot acceptance plan. Implementation has not started. |
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yuki-uix&theme=tokyonight&animation=stagger"
+    alt="Yuki's live GitHub stats"
+    height="180"
+  />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yuki-uix&theme=tokyonight&animation=load"
+    alt="Yuki's top languages by commit"
+    height="180"
+  />
+</p>
 
-## Production impact
+## `02 / systems, not demos`
 
-- Helped build a project-level AI code review platform that runs on every PR
-  across multiple TypeScript repositories. It caught a runtime-crash defect
-  missed by both ESLint and AI-generated tests.
-- Codified a multi-market rollout as an AI coding-agent workflow, reducing the
-  implementation from roughly one week to half a day.
-- Built an agent-configuration evaluation engine and human-in-the-loop improvement
-  cycle, piloted by two delivery teams and recognized as an APAC Top 3 project at
-  the Thoughtworks AI/works Hackathon.
-- Migrated an evaluation worker from Express to Hono + Bun, reducing its bundle
-  from 1,018 KB to 92 KB while adding 31 HTTP integration tests.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yuki-uix/pace-triage-agent">🧪 pace-triage-agent</a></h3>
+      <p>Insurance enquiry triage and reply drafting with a frozen golden set, human review queue, and 2×2 evaluation matrix.</p>
+      <p><strong>The useful result:</strong> every tested configuration missed the safety bars, producing a defensible no-ship decision.</p>
+      <img src="https://img.shields.io/badge/decision-NO--SHIP-F7768E?style=flat-square" alt="Decision: no ship" />
+      <img src="https://img.shields.io/badge/eval-2%C3%972_matrix-7AA2F7?style=flat-square" alt="2 by 2 evaluation matrix" />
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yuki-uix/RepoCoach">🛰️ RepoCoach</a></h3>
+      <p>A source-learning agent with constructive grounding, complete exit-path safety gates, and measured agent-loop economics.</p>
+      <p><strong>The useful result:</strong> the engineering slice worked; the product case did not justify more investment, so development stopped.</p>
+      <img src="https://img.shields.io/badge/tests-638-9ECE6A?style=flat-square" alt="638 tests" />
+      <img src="https://img.shields.io/badge/merged_PRs-22-BB9AF7?style=flat-square" alt="22 merged pull requests" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yuki-uix/rag-generative-ui-explorer">🧭 RAG Generative UI Explorer</a></h3>
+      <p>Grounded evidence becomes schema-constrained, interactive knowledge cards—not arbitrary model-generated UI code.</p>
+      <p><strong>Measured:</strong> dense retrieval reached 63.7% Recall@10 versus 47.6% for BM25; fusion did not beat the best single retriever.</p>
+      <img src="https://img.shields.io/badge/Recall%4010-63.7%25-2AC3DE?style=flat-square" alt="Recall at 10: 63.7 percent" />
+      <img src="https://img.shields.io/badge/questions-60-7AA2F7?style=flat-square" alt="60 evaluation questions" />
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yuki-uix/agent-cost-lab">⚡ agent-cost-lab</a></h3>
+      <p>A measurement lab for the uncomfortable fact that fewer tokens can still mean a larger bill when cache economics change.</p>
+      <p><strong>First result:</strong> one compaction paid back after 18–19 turns, not the 2–4 turns predicted before measurement.</p>
+      <img src="https://img.shields.io/badge/payback-18%E2%80%9319_turns-E0AF68?style=flat-square" alt="Compaction payback: 18 to 19 turns" />
+      <img src="https://img.shields.io/badge/predictions-locked_before_runs-9ECE6A?style=flat-square" alt="Predictions locked before runs" />
+    </td>
+  </tr>
+</table>
 
-## How I work
+<p align="center">
+  <a href="https://github.com/yuki-uix/agent-eval-harness"><code>agent-eval-harness</code></a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/yuki-uix/pr-review-agent"><code>pr-review-agent</code></a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/yuki-uix/beforeshare"><code>beforeshare</code></a>
+</p>
 
-- **Measure the real path.** Probes belong on the production call path; reconstructed
-  requests and aggregate scores can hide the thing that matters.
-- **Make evidence structural.** Grounding, safety, and approval boundaries should
-  be enforced at system exits—not left as prompt instructions.
-- **Keep failed hypotheses.** A negative result or a no-ship recommendation is useful
-  when the method is reproducible and the evidence is visible.
-- **Design for people around the model.** Human review, explicit partial states, and
-  honest failure modes are product features, not cleanup work.
+## `03 / production traces`
 
-## Toolbox
+<table>
+  <tr>
+    <td align="center"><strong>1 week → 0.5 day</strong><br /><sub>multi-market rollout workflow</sub></td>
+    <td align="center"><strong>1,018 KB → 92 KB</strong><br /><sub>evaluation worker bundle</sub></td>
+    <td align="center"><strong>31 tests</strong><br /><sub>HTTP integration coverage</sub></td>
+    <td align="center"><strong>APAC Top 3</strong><br /><sub>Thoughtworks AI/works</sub></td>
+  </tr>
+</table>
 
-**AI engineering:** Agent evaluation · RAG / embeddings · MCP · LLM APIs ·
-Prompt / Skill Engineering · AI code review · CI-integrated agents
+- Built a project-level AI code review platform that runs on every PR across
+  multiple TypeScript repositories and caught a runtime crash missed by both
+  ESLint and AI-generated tests.
+- Built an agent-configuration evaluation engine and human-in-the-loop
+  improvement cycle, piloted by two delivery teams.
+- Turned multi-market rollout knowledge into a reusable coding-agent workflow,
+  cutting implementation from roughly one week to half a day.
 
-**Product engineering:** TypeScript · React · Next.js · Node.js · Hono · Python ·
-Java · Spring Boot · GraphQL · Kafka
+## `04 / current activity`
 
-**Delivery:** Azure DevOps · CI/CD · Google Cloud · Playwright · Honeycomb
+<p align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img
+      src="https://github-readme-activity-graph.vercel.app/graph?username=yuki-uix&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Flow"
+      alt="Yuki's GitHub contribution activity graph"
+      width="100%"
+    />
+  </a>
+</p>
 
-## A different route into engineering
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/yuki-uix/yuki-uix/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/yuki-uix/yuki-uix/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="Animated snake eating Yuki's GitHub contributions"
+    src="https://raw.githubusercontent.com/yuki-uix/yuki-uix/output/github-contribution-grid-snake.svg"
+    width="100%"
+  />
+</picture>
 
-I studied architecture before I wrote code. It trained me to see software as a
-system people move through—not just a set of screens—and still shapes how I design
-agent interactions, failure paths, and developer tools.
+## `05 / toolbox`
 
-## Writing & contact
+<p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,python,java,spring,postgres,gcp,docker,git,githubactions&perline=12"
+    alt="TypeScript, React, Next.js, Node.js, Python, Java, Spring, PostgreSQL, Google Cloud, Docker, Git, and GitHub Actions"
+  />
+</p>
 
-[Portfolio](https://www.yukiuix.com/) ·
-[Juejin](https://juejin.cn/user/3582625834347100) ·
-[LinkedIn](https://www.linkedin.com/in/kunyu-xu/) ·
-[Dev.to](https://dev.to/yuki-uix) ·
-[Email](mailto:yuki.uix@gmail.com)
+<p align="center">
+  <strong>AI engineering:</strong> Agent evaluation · RAG / embeddings · MCP · LLM APIs · Prompt / Skill Engineering<br />
+  <strong>Product engineering:</strong> TypeScript · React · Next.js · Node.js · Hono · Python · Java · Spring Boot<br />
+  <strong>Delivery:</strong> Azure DevOps · CI/CD · Google Cloud · Playwright · Honeycomb
+</p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=yuki-uix&color=2b6cb0&style=flat&label=Profile+Views)
+<details>
+  <summary><strong>Why architecture still matters to my engineering</strong></summary>
+  <br />
+  I studied architecture before I wrote code. It trained me to see software as
+  a system people move through—not just a set of screens—and still shapes how I
+  design agent interactions, failure paths, and developer tools.
+</details>
 
-<!--
-**yuki-uix/yuki-uix** is a special repository because its README.md (this file) appears on your GitHub profile.
--->
+<br />
+
+<p align="center">
+  <a href="https://www.yukiuix.com/">Portfolio</a> ·
+  <a href="https://juejin.cn/user/3582625834347100">Juejin</a> ·
+  <a href="https://www.linkedin.com/in/kunyu-xu/">LinkedIn</a> ·
+  <a href="https://dev.to/yuki-uix">Dev.to</a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=yuki-uix&color=7aa2f7&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
+</p>
