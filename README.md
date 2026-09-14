@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
     <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&repeat=true&width=900&height=45&lines=AI+Engineer+%C3%97+Product-minded+Builder;Agents+%E2%80%A2+Evals+%E2%80%A2+Grounded+Generation+%E2%80%A2+Developer+Tools;I+build+systems+that+know+when+not+to+ship."
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&repeat=true&width=900&height=45&lines=AI+Engineer+%C3%97+Product-minded+Builder;Agents+%E2%80%A2+Evals+%E2%80%A2+Grounded+Generation+%E2%80%A2+Developer+Tools;Turning+LLM+demos+into+measurable+delivery+decisions."
       alt="Typing animation: AI Engineer, agents, evaluations, grounded generation, and developer tools"
     />
   </a>
@@ -22,10 +22,10 @@
   <code>developer experience</code>
 </p>
 
-I build AI agents, evaluation systems, and developer tools with enough evidence
-to support a real **ship / no-ship decision**. At Thoughtworks, I work across
-TypeScript, React, Node.js, Python, and Java/Spring Boot to turn LLM workflows
-into systems teams can review, measure, and deliver.
+I build AI agents, evaluation systems, and developer tools that turn LLM demos
+into measurable delivery decisions. At Thoughtworks, I work across TypeScript,
+React, Node.js, Python, and Java/Spring Boot—from prototypes and eval harnesses
+to production workflows.
 
 ## `01 / live metrics`
 
@@ -56,7 +56,7 @@ into systems teams can review, measure, and deliver.
     <td width="50%" valign="top">
       <h3><a href="https://github.com/yuki-uix/RepoCoach">🛰️ RepoCoach</a></h3>
       <p>A source-learning agent with constructive grounding, complete exit-path safety gates, and measured agent-loop economics.</p>
-      <p><strong>The useful result:</strong> the engineering slice worked; the product case did not justify more investment, so development stopped.</p>
+      <p><strong>Validated:</strong> agent-loop economics and exit-path safety across 638 tests and 22 merged PRs, with the findings turned into reusable engineering guidance.</p>
       <img src="https://img.shields.io/badge/tests-638-9ECE6A?style=flat-square" alt="638 tests" />
       <img src="https://img.shields.io/badge/merged_PRs-22-BB9AF7?style=flat-square" alt="22 merged pull requests" />
     </td>
@@ -87,24 +87,24 @@ into systems teams can review, measure, and deliver.
   <a href="https://github.com/yuki-uix/beforeshare"><code>beforeshare</code></a>
 </p>
 
-## `03 / production traces`
+## `03 / measured impact`
 
 <table>
   <tr>
-    <td align="center"><strong>1 week → 0.5 day</strong><br /><sub>multi-market rollout workflow</sub></td>
+    <td align="center"><strong>≈90% less time</strong><br /><sub>multi-market rollout setup</sub></td>
     <td align="center"><strong>1,018 KB → 92 KB</strong><br /><sub>evaluation worker bundle</sub></td>
-    <td align="center"><strong>31 tests</strong><br /><sub>HTTP integration coverage</sub></td>
-    <td align="center"><strong>APAC Top 3</strong><br /><sub>Thoughtworks AI/works</sub></td>
+    <td align="center"><strong>31 HTTP tests</strong><br /><sub>integration coverage</sub></td>
+    <td align="center"><strong>Top 3 · APAC</strong><br /><sub>Thoughtworks AI/works challenge</sub></td>
   </tr>
 </table>
 
-- Built a project-level AI code review platform that runs on every PR across
-  multiple TypeScript repositories and caught a runtime crash missed by both
-  ESLint and AI-generated tests.
-- Built an agent-configuration evaluation engine and human-in-the-loop
-  improvement cycle, piloted by two delivery teams.
-- Turned multi-market rollout knowledge into a reusable coding-agent workflow,
-  cutting implementation from roughly one week to half a day.
+- Built a project-wide AI code review platform that runs on every PR across
+  multiple TypeScript repositories; it caught a runtime crash missed by ESLint
+  and AI-generated tests.
+- Built and piloted an agent-configuration evaluation engine with two delivery
+  teams, including a human-in-the-loop improvement cycle.
+- Encoded multi-market rollout knowledge into a reusable coding-agent workflow,
+  reducing setup from roughly one week to half a day.
 
 ## `04 / latest writing`
 
