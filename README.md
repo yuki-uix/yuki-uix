@@ -1,12 +1,7 @@
 <h1 align="center">Kunyu Xu (Yuki)</h1>
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&repeat=true&width=900&height=45&lines=AI+Engineer+%C3%97+Product-minded+Builder;Agents+%E2%80%A2+Evals+%E2%80%A2+Grounded+Generation+%E2%80%A2+Developer+Tools;Turning+LLM+demos+into+measurable+delivery+decisions."
-      alt="Typing animation: AI Engineer, agents, evaluations, grounded generation, and developer tools"
-    />
-  </a>
+  <img src="./assets/intro-chat.svg" width="600" alt="Hey Yuki! What do you build? I started with buildings. Now I build AI agents and developer tools. What keeps you curious? The jump from it works to it is useful: building it, testing it, finding out." />
 </p>
 
 <p align="center">
