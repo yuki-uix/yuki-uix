@@ -165,3 +165,7 @@ only become visible after the demo works.
   <a href="https://www.linkedin.com/in/kunyu-xu/">LinkedIn</a> ·
   <a href="https://dev.to/yuki-uix">Dev.to</a>
 </p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=yuki-uix&color=7aa2f7&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
+</p>
