@@ -1,7 +1,21 @@
 <h1 align="center">Kunyu Xu (Yuki)</h1>
 
 <p align="center">
-  <img src="./assets/intro-chat.svg" width="600" alt="Hey Yuki! What do you build? I started with buildings. Now I build AI agents and developer tools. What keeps you curious? The jump from it works to it is useful: building it, testing it, finding out." />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/intro-chat-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./assets/intro-chat.svg"
+    />
+    <img
+      src="./assets/intro-chat.svg"
+      width="600"
+      alt="Hey Yuki! What do you build? I started with buildings. Now I build AI agents and developer tools. What keeps you curious? The jump from it works to it is useful: building it, testing it, finding out."
+    />
+  </picture>
 </p>
 
 <p align="center">
@@ -22,22 +36,7 @@ into measurable delivery decisions. At Thoughtworks, I work across TypeScript,
 React, Node.js, Python, and Java/Spring Boot—from prototypes and eval harnesses
 to production workflows.
 
-## `01 / live metrics`
-
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yuki-uix&theme=tokyonight&animation=stagger"
-    alt="Yuki's live GitHub stats"
-    height="180"
-  />
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yuki-uix&theme=tokyonight&utcOffset=8&animation=load"
-    alt="Yuki's commit activity by hour in UTC plus 8"
-    height="180"
-  />
-</p>
-
-## `02 / systems, not demos`
+## `01 / systems, not demos`
 
 <table>
   <tr>
@@ -82,7 +81,7 @@ to production workflows.
   <a href="https://github.com/yuki-uix/beforeshare"><code>beforeshare</code></a>
 </p>
 
-## `03 / measured impact`
+## `02 / measured impact`
 
 <table>
   <tr>
@@ -101,7 +100,7 @@ to production workflows.
 - Encoded multi-market rollout knowledge into a reusable coding-agent workflow,
   reducing setup from roughly one week to half a day.
 
-## `04 / latest writing`
+## `03 / latest writing`
 
 Fresh notes on AI delivery, design engineering, and the parts of software that
 only become visible after the demo works.
@@ -117,7 +116,7 @@ only become visible after the demo works.
   <a href="https://www.yukiuix.com/en/writing">Read the full archive →</a>
 </p>
 
-## `05 / contribution graph`
+## `04 / contribution graph`
 
 <picture>
   <source
@@ -135,7 +134,7 @@ only become visible after the demo works.
   />
 </picture>
 
-## `06 / toolbox`
+## `05 / toolbox`
 
 <p align="center">
   <img
@@ -165,8 +164,4 @@ only become visible after the demo works.
   <a href="https://juejin.cn/user/3582625834347100">Juejin</a> ·
   <a href="https://www.linkedin.com/in/kunyu-xu/">LinkedIn</a> ·
   <a href="https://dev.to/yuki-uix">Dev.to</a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yuki-uix&color=7aa2f7&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
 </p>

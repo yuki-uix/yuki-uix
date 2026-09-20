@@ -2,10 +2,10 @@
 <title id="title">A conversation with Yuki</title>
 <desc id="desc">Yuki studied architecture and now builds AI agents and developer tools, exploring what makes them useful through building and testing.</desc>
 <style>
-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:17px;fill:#24292f}
-.label{font-size:11px;font-weight:600;letter-spacing:1.5px;fill:#656d76}
-.incoming{fill:#eef0f3}.outgoing{fill:#0969da}.reply{fill:#fff}
-.dot{fill:#8c959f;animation:bounce .65s ease-in-out infinite alternate}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:17px;fill:#e6edf3}
+.label{font-size:11px;font-weight:600;letter-spacing:1.5px;fill:#9199a4}
+.incoming{fill:#262c36}.outgoing{fill:#2478db}.reply{fill:#fff}
+.dot{fill:#8b949e;animation:bounce .65s ease-in-out infinite alternate}
 .message{animation:appear .38s cubic-bezier(.16,1,.3,1) both}
 .typing{animation:typing .5s both}
 @keyframes appear{from{opacity:0;transform:translateY(6px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}
