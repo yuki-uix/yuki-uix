@@ -13,7 +13,7 @@
     <img
       src="./assets/intro-terminal.svg"
       width="600"
-      alt="A terminal session. yuki whoami prints an ASCII cat beside: hi, i'm yuki. I build AI agents, eval systems, and developer tools. yuki background prints: I studied architecture before I wrote code. yuki what-keeps-me-curious prints: the jump from it works to it's useful, building it, testing it, finding out."
+      alt="A terminal session. yuki whoami prints an ASCII whale beside: hi, i'm yuki. I build AI agents, eval systems, and developer tools. yuki background prints: I studied architecture before I wrote code. yuki what-keeps-me-curious prints: the jump from it works to it's useful, building it, testing it, finding out."
     />
   </picture>
 </p>
