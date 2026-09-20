@@ -4,16 +4,16 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="./assets/intro-chat-dark.svg"
+      srcset="./assets/intro-terminal-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="./assets/intro-chat.svg"
+      srcset="./assets/intro-terminal.svg"
     />
     <img
-      src="./assets/intro-chat.svg"
+      src="./assets/intro-terminal.svg"
       width="600"
-      alt="Hey Yuki! What do you build? I started with buildings. Now I build AI agents and developer tools. What keeps you curious? The jump from it works to it is useful: building it, testing it, finding out."
+      alt="A terminal session. yuki whoami prints an ASCII cat beside: hi, i'm yuki. I build AI agents, eval systems, and developer tools. yuki background prints: I studied architecture before I wrote code. yuki what-keeps-me-curious prints: the jump from it works to it's useful, building it, testing it, finding out."
     />
   </picture>
 </p>
