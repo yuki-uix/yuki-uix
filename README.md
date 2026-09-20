@@ -117,17 +117,7 @@ only become visible after the demo works.
   <a href="https://www.yukiuix.com/en/writing">Read the full archive →</a>
 </p>
 
-## `05 / contribution city`
-
-<p align="center">
-  <a href="https://github.com/yoshi389111/github-profile-3d-contrib">
-    <img
-      src="https://raw.githubusercontent.com/yuki-uix/yuki-uix/profile-3d/profile-night-rainbow.svg"
-      alt="Yuki's 3D GitHub contribution calendar"
-      width="100%"
-    />
-  </a>
-</p>
+## `05 / contribution graph`
 
 <picture>
   <source
