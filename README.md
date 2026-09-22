@@ -160,6 +160,14 @@ only become visible after the demo works.
 <br />
 
 <p align="center">
+  <a href="https://github.com/egorthinks/git-bonsai">
+    <img src="./assets/bonsai/bonsai.gif" width="240" alt="Yuki's pixel bonsai, grown from GitHub activity and updated daily" />
+  </a>
+  <br />
+  <sub>A little tree, grown from my GitHub history. Tended daily.</sub>
+</p>
+
+<p align="center">
   <a href="https://www.yukiuix.com/">Portfolio</a> ·
   <a href="https://juejin.cn/user/3582625834347100">Juejin</a> ·
   <a href="https://www.linkedin.com/in/kunyu-xu/">LinkedIn</a> ·
