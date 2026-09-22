@@ -1,0 +1,28 @@
+name: Tend the bonsai
+
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-bonsai
+  cancel-in-progress: false
+
+jobs:
+  grow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+      - name: Grow Yuki's bonsai
+        uses: egorthinks/git-bonsai@bec04c39f62731fdb28c3b82322ef21cbf3bdfac
+        with:
+          user: yuki-uix
+          output-dir: assets/bonsai
+          season: auto
