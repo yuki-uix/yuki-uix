@@ -175,5 +175,6 @@ only become visible after the demo works.
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yuki-uix&color=7aa2f7&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
+  <!-- Preserve the 1,059 views recorded by Komarev at migration; keep extraCount fixed. -->
+  <img src="https://hits.sh/github.com/yuki-uix.svg?style=flat-square&amp;label=PROFILE%20VIEWS&amp;color=7aa2f7&amp;labelColor=555555&amp;extraCount=1059" alt="Profile views" />
 </p>
