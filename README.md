@@ -106,9 +106,9 @@ Fresh notes on AI delivery, design engineering, and the parts of software that
 only become visible after the demo works.
 
 <!-- BLOG-POST-LIST:START -->
+- `2026-10-20` — [When an Agent Changes One Field, How Do We Know It Got It Right?](https://www.yukiuix.com/en/writing/agent-config-research-retrospective)
 - `2026-08-27` — [We Can Build an Agent in Ten Minutes — Why Does Shipping It Still Take Weeks?](https://www.yukiuix.com/en/writing/agent-demo-to-delivery)
 - `2026-05-31` — [Reading baoyu-skills Source Code Through a Design Systems Lens — Three Familiar Patterns](https://mp.weixin.qq.com/s/YSckbphLlJbh6DMwzplLXg)
-- `2026-05-28` — [I Thought All 9 Token Styles Were Valid — Until I Changed the IA](https://dev.to/yuki-uix/built-a-token-switcher-with-9-profiles-they-all-worked-that-made-me-ask-questions-2f6a)
 
 <!-- BLOG-POST-LIST:END -->
 
